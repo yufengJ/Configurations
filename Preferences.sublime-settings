@@ -3,12 +3,13 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Javatar",
-		"Vintage"
+		"Vintage",
+		"Javatar"
 	],
 	"rulers":
 	[
 		80
 	],
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"default_line_ending": "unix"
 }
