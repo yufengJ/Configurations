@@ -43,10 +43,11 @@ endif
 "set showmatch        " Show matching brackets.
 set ignorecase        " Do case insensitive matching
 "set smartcase        " Do smart case matching
-"set incsearch        " Incremental search
+set incsearch        " Incremental search
 "set autowrite        " Automatically save before commands like :next and :make
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a        " Enable mouse usage (all modes)
+set hlsearch        " hightlight search resaults" 
 set nu        "show line number
 set ts=4    "set tabsize = 4
 set autoindent  "auto indent at next line
@@ -58,4 +59,6 @@ endif
 "set colorcolumn ruler
 set colorcolumn=80
 highlight ColorColumn guibg=Gray3
+
+execute pathogen#infect()
 
