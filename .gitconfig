@@ -1,0 +1,9 @@
+[user]
+	email = yufengjiang100@gmail.com
+	name = yufengJ
+[alias]
+    glog = log --all --pretty='format:%d %Cgreen%h%Creset %an - %s' --graph
+	br = branch
+
+[credential]
+	helper = cache
