@@ -1,9 +1,18 @@
 [user]
 	email = yufengjiang100@gmail.com
 	name = yufengJ
+[color]
+	ui = auto
+[core]
+	pager = less -FMRiX
+	excludesfile = /home/yufjiang/.config/git/excludes
+[push]
+	default = simple
 [alias]
-    glog = log --all --pretty='format:%d %Cgreen%h%Creset %an - %s' --graph
+	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+	glog = log --all --pretty='format:%d %Cgreen%h%Creset %an - %s' --graph
 	br = branch
-
+	co = checkout
+	bl = blame --date=short -e
 [credential]
 	helper = cache
