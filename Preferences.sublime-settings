@@ -1,6 +1,7 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-	"font_size": 12,
+	"color_scheme": "Packages/Colorsublime - Themes/bluloco-light.tmTheme",
+	"default_line_ending": "unix",
+	"font_size": 21,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -10,6 +11,26 @@
 	[
 		80
 	],
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"default_line_ending": "unix"
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"build/**"
+	],
+	"open_files_in_new_window": false,
+	"word_wrap": true
 }
